@@ -2,7 +2,7 @@ import { hostname } from "os";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  ypescript: {
+  typescript: {
     // Dangerously allow production builds to complete even if type errors exist
     ignoreBuildErrors: true,
   },
