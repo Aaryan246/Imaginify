@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider
-      afterSignOutUrl="/"
+      afterSignOutUrl="/sign-in"
       appearance={{ variables: { colorPrimary: "#624cf5" } }}
     >
       <html lang="en">
