@@ -2,16 +2,12 @@ import { hostname } from "os";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    // !! WARN !!
-    // Dangerously allow production builds to successfully complete even if
-    // your project has type errors.
-    // !! WARN !!
+  ypescript: {
+    // Dangerously allow production builds to complete even if type errors exist
     ignoreBuildErrors: true,
   },
   eslint: {
-    // Warning: This allows production builds to successfully complete
-    // even if there are ESLint errors.
+    // Allow production builds to complete even if ESLint errors exist
     ignoreDuringBuilds: true,
   },
   images: {
